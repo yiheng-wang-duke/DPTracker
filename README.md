@@ -1,7 +1,10 @@
 # DPTracker
-A simple and effective tracking framework for nighttime UAV Tracking. 🚀
+A simple and effective tracking framework for nighttime UAV Tracking.
 
-## ⚙️ Setup
+## Deep learning environment
+This repo is using Pytorch 2.1.2 with CUDA 11.8.
+
+## Setup
 Create the default local file with paths:
 ```bash
 python tracking/create_default_local_file.py \
