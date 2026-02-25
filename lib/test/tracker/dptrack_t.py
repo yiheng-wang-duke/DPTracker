@@ -1,6 +1,6 @@
 import math
 
-from lib.models.avtrack_pt import build_avtrack_pt
+from lib.models.dptrack_t import build_dptrackt
 from lib.test.tracker.basetracker import BaseTracker
 import torch
 

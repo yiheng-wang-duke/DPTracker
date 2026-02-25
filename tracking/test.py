@@ -1,6 +1,5 @@
 import os
 import sys
-sys.path.insert(0, "/home/user/.conda/envs/wyh/lib/python3.8/site-packages")
 import argparse
 
 prj_path = os.path.join(os.path.dirname(__file__), '..')

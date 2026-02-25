@@ -2,9 +2,7 @@ import os
 import argparse
 import random
 import sys
-sys.path = ['/home/user/.conda/envs/wyh/lib/python3.8/site-packages', '/mnt/sdc/V4R/WYH/Pytracking/ICRA/tracking', '/home/user/.conda/envs/wyh/lib/python38.zip', '/home/user/.conda/envs/wyh/lib/python3.8', '/home/user/.conda/envs/wyh/lib/python3.8/lib-dynload']
-# sys.path.insert(0, "/home/user/.conda/envs/wyh/lib/python3.8/site-packages")
-print(sys.path)
+
 
 def parse_args():
     """

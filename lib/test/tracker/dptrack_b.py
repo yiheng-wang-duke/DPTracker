@@ -1,6 +1,6 @@
 import math
 
-from lib.models.ostrack_pt import build_ostrack_pt
+from lib.models.dptrack_b import build_dptrackb
 from lib.test.tracker.basetracker import BaseTracker
 import torch
 
