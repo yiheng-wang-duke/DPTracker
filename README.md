@@ -11,12 +11,16 @@ A simple and effective tracking framework for nighttime UAV Tracking.
 </p>
 
 ## 📣 News
-- **[2026.02]** Model checkpoints and raw tracking results coming soon!
+- **[2026.03]** Model checkpoints and raw tracking results are now available!
 - **[2026.02]** Our paper has been accepted by ICRA 2026! 🎉
 
 ## 📁 Download
-- **Models Checkpoints**: [Baidu Netdisk](LINK_TO_MODEL) (Code: XXXX)
-- **Tracking Results**: [Baidu Netdisk](LINK_TO_RESULTS) (Code: XXXX)
+- **Model Checkpoints**:
+  - [Baidu Netdisk](https://pan.baidu.com/s/1Dr7cq8hMi6qK3u006OQ51Q) (Code: ac7z)
+  - [Google Drive](https://drive.google.com/drive/folders/1YkUyK5V7F63DMDP0W8FZPAXLCXWrT2Ex?usp=drive_link)
+- **Raw Tracking Results**:
+  - [Baidu Netdisk](https://pan.baidu.com/s/1CJLEbk9XfFOSstZllTrINg) (Code: haax)
+  - [Google Drive](https://drive.google.com/drive/folders/1wxpvaYglka2jMWmR2sG0qVJKtjuhnyjX?usp=drive_link)
 
 ## 🖥️ Environment
 This repo is using Pytorch 2.1.2 with CUDA 11.8.
