@@ -37,17 +37,17 @@ DATA:
     - 1
     - 1
     - 1
-    SAMPLE_PER_EPOCH: 60000
+    SAMPLE_PER_EPOCH: 1000 # 60000
     
   VAL:
     DATASETS_NAME:
     - GOT10K_votval
     DATASETS_RATIO:
     - 1
-    SAMPLE_PER_EPOCH: 4000
+    SAMPLE_PER_EPOCH: 1000 # 4000
     
 MODEL:
-  PRETRAIN_FILE: ""
+  PRETRAIN_FILE: "./pretrained_models/OSTrack_ep0300.pth.tar"
   EXTRA_MERGER: False
   RETURN_INTER: False
   BACKBONE:
@@ -66,7 +66,7 @@ TRAIN:
   CE_START_EPOCH: 0  # candidate elimination start epoch
   CE_WARM_EPOCH: 10
   BATCH_SIZE: 32
-  EPOCH: 30
+  EPOCH: 3
   GIOU_WEIGHT: 2.0
   L1_WEIGHT: 5.0
   GRAD_CLIP_NORM: 0.1

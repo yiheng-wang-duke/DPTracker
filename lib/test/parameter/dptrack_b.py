@@ -1,7 +1,7 @@
 from lib.test.utils import TrackerParams
 import os
 from lib.test.evaluation.environment import env_settings
-from lib.config.ostrack_pt.config import cfg, update_config_from_file
+from lib.config.dptrack_b.config import cfg, update_config_from_file
 
 
 def parameters(yaml_name: str):

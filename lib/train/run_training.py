@@ -1,5 +1,4 @@
 import os
-import sys
 import argparse
 import importlib
 import cv2 as cv

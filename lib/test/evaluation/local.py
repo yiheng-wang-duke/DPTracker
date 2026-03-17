@@ -5,7 +5,6 @@ def local_env_settings():
 
     # Set your local paths here.
 
-    settings.darktrack2021_path = ''
     settings.davis_dir = ''
     settings.got10k_lmdb_path = ''
     settings.got10k_path = ''
@@ -15,7 +14,6 @@ def local_env_settings():
     settings.lasot_extension_subset_path_path = ''
     settings.lasot_lmdb_path = ''
     settings.lasot_path = ''
-    settings.nat2021_path = ''
     settings.network_path = ''    # Where tracking networks are stored.
     settings.nfs_path = ''
     settings.otb_path = ''
@@ -29,12 +27,23 @@ def local_env_settings():
     settings.tnl2k_path = ''
     settings.tpl_path = ''
     settings.trackingnet_path = ''
-    settings.uav_path = ''
-    settings.uavdark135_path = ''
     settings.vot18_path = ''
     settings.vot22_path = ''
     settings.vot_path = ''
     settings.youtubevos_dir = ''
+    settings.uav_path = ''
+
+    settings.nat2021_path = ''
+    settings.nat2021l_path = ''
+    settings.uavdark135_path = ''
+    settings.darktrack2021_path = ''
+    settings.nat2024_path = ''
+    settings.nutl_path = ''
+    settings.uav123_10fps_path = ''
+    settings.uav123_path = ''
+    settings.uavdt_path = ''
+    settings.dtb70_path = ''
+    settings.uavtrack112_path = ''
+    settings.visdrone2018_path = ''
 
     return settings
-

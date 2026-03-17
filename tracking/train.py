@@ -1,8 +1,6 @@
 import os
 import argparse
 import random
-import sys
-
 
 def parse_args():
     """
